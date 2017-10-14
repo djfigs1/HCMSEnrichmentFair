@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HCMS Music Month</title>
+    <link rel="stylesheet" href="https://hcms.figsware.net/static/css/default.css"/>
+    <link rel="stylesheet" href="https://hcms.figsware.net/static/css/upload.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon" type="img/ico" href="https://hcms.figsware.net/static/image/HCMSPhoto.ico">
+</head>
+<body>
+    <div style="color:white;background-color:#ff3333;text-align:center;font-size:70px;width:100%;vertical-align:middle;" class="alert">
+        ALL SUBMISSIONS MUST BE DONE BY 12:00PM TODAY!
+    </div>
+    <div class="wrapper">
+        <div class="header">
+            <div class="title">
+                <a href="/"><img src="https://hcms.figsware.net/static/image/HCMSPhoto.png"></a>
+                <h1>Harper's Choice - Music in our School Month</h1>
+            </div>
+            <div class="nav">
+            </div>
+        </div>
+        <div class="body">
+            <div class="upload_box">
+                <h1>Upload a Photo</h1>
+                <form method="POST" id="config_form" action="https://hcms.figsware.net/upload" accept-charset="utf-8" enctype="multipart/form-data"  onsubmit="submitPhoto()">
+                    <label for="photo" id="photoLabel">Click here to upload a photo</label>
+                    <input type="file" name="photo" id="photo" class="inputfile">
+                    <h2>Name(s)</h2>
+                    <textarea name="name" id="name_box">${name}</textarea>
+                    <h2>Caption</h2>
+                    <textarea name="caption" id="caption_box"></textarea>
+                    <br>
+                    <p id="errorMsg">${errorMsg}</p>
+                    <input type="submit" name="photo.save" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+            <p>Made by D.J. Figueroa</p>
+        </footer>
+</body>
+<script src="https://hcms.figsware.net/static/js/upload.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59385813-23', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

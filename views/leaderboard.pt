@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HCMS Encrichment Fair</title>
+    <link rel="stylesheet" href="${static_url}/static/css/default.css"/>
+    <link rel="stylesheet" href="${static_url}/static/css/leaderboard.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="title">
+                <a href="/"><img src="${static_url}/static/img/HCMSPhoto.png"></a>
+                <h1>Harper's Choice - Enrichment Fair</h1>
+            </div>
+            <div class="nav">
+            </div>
+        </div>
+        <div class="body">
+            <div class="bodynav">
+                <table id="leaderboard_table">
+                    <tr>
+                        <th class="place_column">Place</th>
+                        <th>Name</th>
+                        <th>Points</th>
+                    </tr>
+                    <tr>
+                        <td class="place_column">1st</td>
+                        <td>Test</td>
+                        <td>123</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+            <p>Made by D.J. Figueroa</p>
+    </footer>
+</body>
+</html>

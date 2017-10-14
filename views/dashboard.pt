@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HCMS Encrichment Fair</title>
+    <link rel="stylesheet" href="${static_url}/static/css/default.css"/>
+    <link rel="stylesheet" href="${static_url}/static/css/dashboard.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="title">
+                <a href="/"><img src="${static_url}/static/img/HCMSPhoto.png"></a>
+                <h1>Harper's Choice - Enrichment Fair</h1>
+            </div>
+            <div class="nav">
+            </div>
+        </div>
+        <div class="body">
+            <div class="bodynav">
+                <div class="action_buttons">
+                    <a href="/create_presentation">Create a New Presentation</a>
+                </div>
+                <div class="table_outline">
+                    <table id="presentation_table">
+                        <tr>
+                            <th>Presentation Name</th>
+                            <th>Name of Presenter</th>
+                            <th>Location</th>
+                            <th>Raffle Code</th>
+                            <th>Current Point Value</th>
+                            <th>Times Redeemed</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="table_outline">
+                    <table id="raffle_table">
+                        <tr>
+                            <th>Name</th>
+                            <th>UUID</th>
+                            <th>Points</th>
+                            <th>Actions</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+            <p>Made by D.J. Figueroa</p>
+    </footer>
+</body>
+<script src="${static_url}/static/js/dashboard.js"></script>
+</html>

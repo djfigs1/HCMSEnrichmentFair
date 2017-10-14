@@ -1,0 +1,77 @@
+.bodynav th,td {
+   padding-left: 10pt;
+   padding-right: 10pt;
+}
+
+.action_buttons {
+   margin: 10px;
+}
+
+.table_outline {
+    border: 2px solid;
+    border-color: gray;
+    width: 90%;
+    margin:5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bodynav a {
+    background-color: #09a32d;
+    color: #ffffff;
+    font-size: 10pt;
+    border: 0;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    margin: 1em;
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid;
+    border-color: #09a32d;
+    text-decoration: none;
+}
+
+.bodynav a:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #09a32d;
+    font-size: 10pt;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    margin: 1em;
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid;
+    border-color: #09a32d;
+}
+
+#presentation_table a, #raffle_table a {
+    margin-left: 2px;
+    margin-right: 2px;
+    border-color: white;
+    background-color: #286ee0;
+    color: white;
+}
+
+#presentation_table a:hover, #raffle_table a:hover {
+    border-color: #286ee0;
+    background-color: white;
+    color: #286ee0;
+}
+
+.remove_button a {
+    border-color: red;
+    background-color: red;
+    color: white;
+}
+
+.remove_button a:hover {
+    border-color: red;
+    background-color: white;
+    color: white;
+}

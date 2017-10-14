@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HCMS Encrichment Fair</title>
+    <link rel="stylesheet" href="${static_url}/static/css/default.css"/>
+    <link rel="stylesheet" href="${static_url}/static/css/main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="title">
+                <a href="/"><img src="${static_url}/static/img/HCMSPhoto.png"></a>
+                <h1>Harper's Choice - Enrichment Fair</h1>
+            </div>
+            <div class="nav">
+            </div>
+        </div>
+        <div class="body">
+            <div class="bodynav">
+                <h1>Welcome all to the HCMS Enrichment Fair!</h1>
+
+                <a id="submit_link" href="/code">Click here to submit a code!</a>
+
+                <h3>By clicking the link above, you can submit codes you find from viewing presentations to
+                enter a large raffle to win prizes like an AMC, Coldstone, and Burger King gift card! <br>The more
+                presentations and codes you view and submit, you have a higher chance of winning an item! The public leaderboard
+                will be in the main lobby.<br>
+
+                If you have any technical difficulties with the website, find someone with a walkie talkie or a Event Organizer nametag so
+                we can get you back in the game as soon as possible.<br>
+
+                <br>For rules, we please ask you to not submit inappropriate names. By doing so, we will ban you from participating in the raffle.<br>
+
+                    <strong style="color: red; font-size:24pt;">Also, avoid using a incognito/private browser, and it may harm the ability for the site to recognize you and give you codes.</strong>
+                    <br>
+                    Have a great night!
+                </h3>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+            <p>Made by D.J. Figueroa</p>
+    </footer>
+</body>
+</html>

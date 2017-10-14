@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HCMS Enrichment Fair</title>
+    <link rel="stylesheet" href="${static_url}/static/css/default.css"/>
+    <link rel="stylesheet" href="${static_url}/static/css/upload.css"/>
+    <link rel="stylesheet" href="${static_url}/static/css/enter_code.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon" type="img/ico" href="${static_url}/static/image/HCMSPhoto.ico">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="title">
+                <a href="/"><img src="${static_url}/static/img/HCMSPhoto.png"></a>
+                <h1>Harper's Choice - Enrichment Fair</h1>
+            </div>
+            <div class="nav">
+            </div>
+        </div>
+        <div class="body">
+            <div class="bodynav">
+                <h1>Submit a Presentation Code</h1>
+                <form method="POST" id="config_form" action="${static_url}/code" accept-charset="utf-8" enctype="multipart/form-data"  onsubmit="submitPhoto()">
+                    <!-- SAVE THE BEES 5/12/2017 !-->
+                    <div id="name_nav">
+                        <h2>Your Name(s)</h2>
+                        <textarea name="name" id="name_box">${name}</textarea>
+                    </div>
+                    <br>
+                    <div id="code_nav">
+                        <h2>Code (5-Digit Code)</h2>
+                        <textarea name="code" id="code_box" maxlength=5></textarea>
+                    </div>
+                    <br>
+                    <p id="successMsg">${successMsg}</p>
+                    <p id="errorMsg">${errorMsg}</p>
+                    <input id="submit_button" type="submit" name="photo.save" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+            <p>Made by D.J. Figueroa</p>
+        </footer>
+</body>
+</html>

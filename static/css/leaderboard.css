@@ -1,0 +1,9 @@
+#leaderboard_table th,td {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.place_column {
+    padding-left: 10px;
+    padding-right: 10px;
+}

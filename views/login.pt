@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HCMS Encrichment Fair</title>
+    <link rel="stylesheet" href="${static_url}/static/css/default.css"/>
+    <link rel="stylesheet" href="${static_url}/static/css/login.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="title">
+                <a href="/"><img src="${static_url}/static/img/HCMSPhoto.png"></a>
+                <h1>Harper's Choice - Enrichment Fair</h1>
+            </div>
+            <div class="nav">
+            </div>
+        </div>
+        <div class="body">
+            <div class="login_form">
+                <form action="${static_url}/login" method="post" onsubmit="onLogin()">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username"/>
+                    <br>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"><br/>
+                    <input type="submit" name="form.submitted" value="Log In"/>
+                </form>
+                <p id="error_desc">${error}</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+            <p>Made by D.J. Figueroa</p>
+    </footer>
+</body>
+</html>

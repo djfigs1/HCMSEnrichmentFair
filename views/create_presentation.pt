@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HCMS Enrichment Fair</title>
+    <link rel="stylesheet" href="${static_url}/static/css/default.css"/>
+    <link rel="stylesheet" href="${static_url}/static/css/create_presentation.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon" type="img/ico" href="https://hcms.figsware.net/static/image/HCMSPhoto.ico">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="title">
+                <a href="/"><img src="${static_url}/static/img/HCMSPhoto.png"></a>
+                <h1>Harper's Choice - Enrichment Fair</h1>
+            </div>
+            <div class="nav">
+            </div>
+        </div>
+        <div class="body">
+            <div class="upload_box">
+                <h1>Create a new Presentation</h1>
+                <p id="success_msg">${success}</p>
+                <form method="POST" id="present_form" action="${static_url}/create_presentation" accept-charset="utf-8">
+                    <div id="name_nav">
+                        <h1>Name of Presenter</h1>
+                        <input type="text" name="name">
+                    </div>
+                    <div id="presentation_name_nav">
+                        <h1>Name of Presentation</h1>
+                        <input type="text" name="presentation_name">
+                    </div>
+                    <br>
+                    <div id="location_nav">
+                        <h1>Location of Presentation</h1>
+                        <input type="text" name="location">
+                    </div>
+                    <br>
+                    <input id="submit_button" type="submit" name="presentation.save" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+            <p>Made by D.J. Figueroa</p>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+.bodynav {
+    overflow: hidden;
+}
+
+#time_div {
+    margin-left: auto;
+    margin-right: 10px;
+    text-align: right;
+    vertical-align: middle;
+    display: inline-block;
+    height: 8%;
+    line-height:8%;
+}
+
+#time_text {
+    font-size: 40pt;
+    vertical-align:middle;
+}
+
+#link_div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: #286ee0;
+    color: white;
+}
+
+#link_div h2 {
+    margin: 5px;
+}
+
+#link_div p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 40pt;
+}
+
+.fair_info_div {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progress {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leaderboard_div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name_cell {
+    width: 350px;
+}
+
+.footer {
+    display: inline-block;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.footer p {
+    margin: 0px;
+    margin-left: 5px;
+    vertical-align: middle;
+    font-size: 40pt;
+}
+
+th,td {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20pt;
+}
+
+.w3-light-grey {
+    border: 2px solid;
+    border-color: gray;
+}
